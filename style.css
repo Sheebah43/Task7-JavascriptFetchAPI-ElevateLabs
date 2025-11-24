@@ -1,61 +1,78 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fff8f0;
-  margin: 0;
-  padding: 0;
-  color: #333;
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: #fff8f0;
+    margin: 0;  
+    padding: 0;
+    color: #333;
 }
 
-header {
-  text-align: center;
-  background-color: #ffb6c1;
-  padding: 20px;
+header{
+    text-align: center;
+    background-color: #ffb6c1;
+    padding: 20px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2.5em;
+header h1{
+    margin: 0;
+    font-size: 2.5em;
 }
 
-button {
-  background-color: #ff69b4;
-  border: none;
-  padding: 10px 20px;
-  color: white;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 5px;
+button{
+    background-color: #ff69b4;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-button:hover {
-  background-color: #ff1493;
+button:hover{
+    background-color: #ff1493;
 }
 
-.user-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
+.user_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}   
+
+.userCard{
+    border: 2px solid #ffb6c1;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    display: inline-block;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}  
+
+.userCard h2{
+    margin-top: 0;
+    color: #ff69b4;
 }
 
-.user-card {
-  background-color: #fff;
-  border: 2px solid #ffb6c1;
-  border-radius: 10px;
-  padding: 15px;
-  margin: 10px;
-  width: 250px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-}
+.kitten-img{
+    max-width: 100%;
+  display: block;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}  
 
-.user-card h2 {
-  margin-top: 0;
-  color: #ff69b4;
-}
-
-footer {
-  text-align: center;
-  padding: 15px;
-  background-color: #ffb6c1;
-  margin-top: 20px;
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #ffb6c1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /* added the following kyunki overlap ho raha tha */
+    clear: both;      
+    margin-top: 20px;  
+    position: relative;
 }
