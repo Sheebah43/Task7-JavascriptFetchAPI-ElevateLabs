@@ -3,12 +3,12 @@ body{
     background-color: #fff8f0;
     margin: 0;  
     padding: 0;
-    color: #333;
+    color: #000000;
 }
 
 header{
     text-align: center;
-    background-color: #ffb6c1;
+    background-color: #f2c880;
     padding: 20px;
 }
 
@@ -18,7 +18,7 @@ header h1{
 }
 
 button{
-    background-color: #ff69b4;
+    background-color: #9a6a19;
     border: none;
     padding: 10px 20px;
     color: white;
@@ -28,7 +28,7 @@ button{
 }
 
 button:hover{
-    background-color: #ff1493;
+    background-color: #c5872b;
 }
 
 .user_container{
@@ -39,21 +39,21 @@ button:hover{
 }   
 
 .userCard{
-    border: 2px solid #ffb6c1;
+    border: 2px solid #f2c880;
     margin: 10px;
     width: 250px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
     text-align: center;
     display: inline-block;
   padding: 10px;
-  background: #fff;
+  background: #ecd2a4a2;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }  
 
 .userCard h2{
     margin-top: 0;
-    color: #ff69b4;
+    color: #4c2d09;
 }
 
 .kitten-img{
@@ -67,7 +67,7 @@ button:hover{
 footer{
     text-align: center;
     padding: 15px;
-    background-color: #ffb6c1;
+    background-color: #f2c880;
     position: fixed;
     width: 100%;
     bottom: 0;
