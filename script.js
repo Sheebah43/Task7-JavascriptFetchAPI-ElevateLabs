@@ -24,10 +24,10 @@ function displayUsers(users) {
     card.className = "userCard";
 
     const imgSrc = `kittyCats/kittyCat${i}.jpg`;
-    const user = users[(i - 1) % users.length];
+    const user = users[(i - 1) % users.length]; // cycle through users
 
     card.innerHTML = `
-      <img src="${imgSrc}" alt="Kitten friend" class="kitten-img">
+<img src="${imgSrc}" alt="Kitten friend" class="kitten-img" style="height:275px; width:400px;">
       <h2>${user.name}</h2>
       <p><strong>Email:</strong> ${user.email}</p>
     `;
